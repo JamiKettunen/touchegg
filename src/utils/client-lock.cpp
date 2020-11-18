@@ -18,9 +18,12 @@
 #include "utils/client-lock.h"
 
 #include <sys/file.h>
+#include <sys/stat.h>
 #include <unistd.h>
 
 #include <exception>
+#include <fstream>
+#include <iostream>
 #include <stdexcept>
 #include <string>
 
